@@ -1,6 +1,5 @@
 import socket
 
-
 host = socket.gethostbyname(socket.gethostname()) # it's the local ip address of the computer and make sure not to use it if you're using virtual meachine
 HOST = str(host)
 PORT = 9090
